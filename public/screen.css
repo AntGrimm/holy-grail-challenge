@@ -10,3 +10,50 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(14, 13, 13);
+  background-color: rgb(146, 178, 221);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(14, 13, 13);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  list-style: none;
+  border: 2px solid rgb(14, 13, 13);
+  background-color: plum;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+  border: 2px solid rgb(14, 13, 13);
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  border: 2px solid rgb(14, 13, 13);
+  background-color: plum;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(14, 13, 13);
+  background-color: rgb(146, 178, 221);
+}
